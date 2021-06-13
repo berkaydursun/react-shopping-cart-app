@@ -1,0 +1,118 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+   
+}
+
+.container{
+    max-width:1400px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin:0 auto;
+    justify-content: space-between;
+    border-bottom: 3px solid indigo;
+}
+
+.logo{
+    color: indigo;
+    font-family: 'Girassol', cursive;
+    font-size: 3rem;
+    letter-spacing: 1.5px;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+ul > li{
+    font-size: 1.5rem;
+    margin-right:2rem;
+    cursor:pointer;
+
+}
+
+.money{
+    color:green;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 3px;    
+}
+
+
+.item-box{
+    width:300px;
+    border: 3px solid black;
+    border-radius: 10px;
+    border-color: indigo;
+    box-shadow: 2px 3px 4px 3px indigo;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+img{
+    max-width:200px;
+    max-height: 200px;
+}
+
+button{
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline-color: indigo;
+    background-color: indigo;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    letter-spacing: 1px;
+    transition: 0.9ms;
+}
+
+button:hover{
+    background-color: white;
+    color:indigo;
+    cursor: pointer;
+    border: 3px solid indigo;
+}
+
+.item-list{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+
+.cart{
+    border: 1px solid black;
+    
+}
+
+.cart-area{
+    max-width: 600px;
+    flex-direction: column;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.piece{
+ 
+    border: 4px solid indigo;
+    padding: 3px;
+    margin-right: 20px;
+}
